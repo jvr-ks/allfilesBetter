@@ -65,6 +65,6 @@ The jar-file has no versioning, i.e. is fixeed to "allfilesBetter-assembly-1.00.
 Copyright (c) 2021 J. v.Roos.  
 
 ##### Viruscheck at Virustotal 
-[Check here](https://www.virustotal.com/gui/url/351c7eb05b69414368754af49c932312332c02b5c770e72d538b43f6460b2d5f/detection/u-351c7eb05b69414368754af49c932312332c02b5c770e72d538b43f6460b2d5f-1645999312
+[Check here](https://www.virustotal.com/gui/url/67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2/detection/u-67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2-1645999258
 )  
 Use [CTRL] + Click to open in a new window! 
