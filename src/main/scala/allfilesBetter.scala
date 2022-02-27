@@ -68,7 +68,6 @@ object AllfilesBetter {
       val prepend = "* file:///"
       d.foreach (x => {
         val filePath = x.toString
-        println(filePath)
         if ((fileExcludeContent.foldLeft(false)(_ || filePath.contains(_)))){
           println("\nJumpover: " + filePath)
         } else {
