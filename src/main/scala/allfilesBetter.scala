@@ -25,7 +25,7 @@ object AllfilesBetter {
   
   def main(args: Array[String]): Unit = {
     
-    val version = "0.018"
+    val version = "0.019"
     val progname = "allfilesBetter"
     
     var inDirName = ""
@@ -54,7 +54,7 @@ object AllfilesBetter {
       println("Output-file is: " + generatedOutFileName)
       println("Written to directory: " + parentPath)
       
-      val sourceExclude = (inDirName + JFile.separator + "..\\" + "allfilesBetterExclude.txt").toFile
+      val sourceExclude = (parentPath + JFile.separator + "allfilesBetterExclude.txt").toFile
 
       var fileExcludeContent = List.empty[String]
       if (!sourceExclude.isEmpty) {

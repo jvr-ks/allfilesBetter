@@ -38,8 +38,9 @@ All source-files are UTF-8 (no BOM.
 Viruscheck see below.  
 
 #### Start    
-allfilesBetter.exe ["directory to scan"]  
-["directory to scan"] is optional.  
+allfilesBetter.exe [directory to scan] [output-directory]
+[directory to scan] is optional.  
+[output-directory] is optional. 
   
 #### Contextmenu integration:  
 Make a backup of the registry!  
@@ -64,6 +65,5 @@ The jar-file has no versioning, i.e. is fixeed to "allfilesBetter-assembly-1.00.
 Copyright (c) 2021 J. v.Roos.  
 
 ##### Viruscheck at Virustotal 
-[Check here](https://www.virustotal.com/gui/url/17fa6a04afa04fd718d34f99336db1fec95614ec97d5e359ac9146312a57329e/detection/u-17fa6a04afa04fd718d34f99336db1fec95614ec97d5e359ac9146312a57329e-1645996387
-)  
+[Check here]()  
 Use [CTRL] + Click to open in a new window! 
