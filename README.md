@@ -18,6 +18,12 @@ Version (>=)| Change
 \*1)  
 Generate a file "allfilesBetterExclude.txt" in the **parent-directory** of the directory to scan,  
 containig filenames to exclude (comma separated, no quotation-marks).  
+Each entry **must end with a comma**,  
+Example 1:  
+fileunwanted.txt,  
+or  
+Example 2:  
+fileunwanted.txt,filesecret.txt,  
   
 #### Known issues / bugs 
 Issue / Bug | Type | fixed in version
@@ -65,6 +71,6 @@ The jar-file has no versioning, i.e. is fixeed to "allfilesBetter-assembly-1.00.
 Copyright (c) 2021 J. v.Roos.  
 
 ##### Viruscheck at Virustotal 
-[Check here](https://www.virustotal.com/gui/url/67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2/detection/u-67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2-1646000910
+[Check here](https://www.virustotal.com/gui/url/67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2/detection/u-67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2-1646003109
 )  
 Use [CTRL] + Click to open in a new window! 

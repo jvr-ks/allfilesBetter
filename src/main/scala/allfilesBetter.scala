@@ -69,7 +69,7 @@ object AllfilesBetter {
       d.foreach (x => {
         val filePath = x.toString
         if ((fileExcludeContent.foldLeft(false)(_ || filePath.contains(_)))){
-          println("\nJumpover: " + filePath)
+          println("Jumpover: " + filePath)
         } else {
           val l = filePath.length + prepend.length
           outFile.appendLines("/" + times('*',l + 3))
