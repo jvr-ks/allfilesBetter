@@ -25,6 +25,8 @@ or
 Example 2:  
 fileunwanted.txt,filesecret.txt,  
   
+**Caution, the exclusion uses a simple text-compare of the path + filename, so an entry "lib," would exclude every file containing "lib" in it's path or "lib" in it's name!**  
+  
 #### Known issues / bugs 
 Issue / Bug | Type | fixed in version
 ------------ | ------------- | -------------
@@ -71,6 +73,6 @@ The jar-file has no versioning, i.e. is fixeed to "allfilesBetter-assembly-1.00.
 Copyright (c) 2021 J. v.Roos.  
 
 ##### Viruscheck at Virustotal 
-[Check here](https://www.virustotal.com/gui/url/67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2/detection/u-67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2-1646003109
+[Check here](https://www.virustotal.com/gui/url/67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2/detection/u-67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2-1646004087
 )  
 Use [CTRL] + Click to open in a new window! 
