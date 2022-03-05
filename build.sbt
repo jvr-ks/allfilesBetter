@@ -8,7 +8,7 @@ lazy val root = (project in file("."))
 .settings(
 	name := "allfilesBetter",
 	Compile / mainClass := Some("de.jvr.AllfilesBetter"),
-	fork := true,
+	fork := false,
 	logLevel := Level.Warn,
 	scalacOptions ++= Seq("-deprecation", "-feature", "-language:postfixOps","-Ywarn-unused","-Yrangepos"),
 

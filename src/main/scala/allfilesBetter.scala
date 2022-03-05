@@ -32,8 +32,8 @@ object AllfilesBetter {
     var outDirName = ""
     
     if (args.length == 0){
-      inDirName = ".\\"
-      outDirName = ".\\"
+      inDirName = "." + JFile.separator
+      outDirName = inDirName
     } else {
       inDirName = args(0)
       outDirName = inDirName
@@ -62,7 +62,7 @@ object AllfilesBetter {
         val c = sourceExclude.contentAsString
         if (!c.isEmpty) {
           println("Exclude: " + c)
-          fileExcludeContent = (c.trim().replace("\n","").split(",")).toList
+          fileExcludeContent = (c.trim().replace(JFile.separator,"").split(",")).toList
         }
       }
       val d = inFile.glob("**/*.{txt,bat,ssc,sc,scala,java,php,css,js,ahk,md,conf,ini,sql}", includePath = false)
