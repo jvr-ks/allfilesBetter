@@ -2,6 +2,7 @@ ThisBuild / organization := "de.jvr"
 ThisBuild / scalaVersion := "2.13.5"
 ThisBuild / version      := "1.00"
 
+Global / onChangedBuildSource := ReloadOnSourceChanges
 
 lazy val root = (project in file("."))
 .settings(
@@ -26,13 +27,7 @@ lazy val root = (project in file("."))
 
   
   
-  
-  
-  
-  
-  
-  
-  
+    
   
   
   

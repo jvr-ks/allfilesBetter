@@ -25,7 +25,7 @@ object AllfilesBetter {
   
   def main(args: Array[String]): Unit = {
     
-    val version = "0.019"
+    val version = "0.020"
     val progname = "allfilesBetter"
     
     var inDirName = ""
@@ -59,16 +59,18 @@ object AllfilesBetter {
       var fileExcludeContent = List.empty[String]
       if (!sourceExclude.isEmpty) {
         println("Exclude-definition file found:\n" + sourceExclude)
-        println("Exclude: " + sourceExclude.contentAsString)
-        fileExcludeContent = sourceExclude.contentAsString.split(",").toList
+        val c = sourceExclude.contentAsString
+        if (!c.isEmpty) {
+          println("Exclude: " + c)
+          fileExcludeContent = (c.trim().replace("\n","").split(",")).toList
+        }
       }
-
       val d = inFile.glob("**/*.{txt,bat,ssc,sc,scala,java,php,css,js,ahk,md,conf,ini,sql}", includePath = false)
 
       val prepend = "* file:///"
       d.foreach (x => {
         val filePath = x.toString
-        if ((fileExcludeContent.foldLeft(false)(_ || filePath.contains(_)))){
+        if (fileExcludeContent.foldLeft(false)(_ || filePath.contains(_))){
           println("Jumpover: " + filePath)
         } else {
           val l = filePath.length + prepend.length
@@ -104,12 +106,6 @@ object AllfilesBetter {
     Thread.sleep(2000)
   }
 }
-
-
-
-
-
-
 
 
 

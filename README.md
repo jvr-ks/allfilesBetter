@@ -10,6 +10,7 @@ Takes as input-directory: current directory or the first parameter.
 #### Latest changes:  
 Version (>=)| Change
 ------------ | -------------
+0.019 | ignore empty lines in "allfilesBetterExclude.txt" 
 0.018 | Exclude files \*1)
 0.017 | globs "*.sql" too
 0.016 | globs "*.txt" too
@@ -17,13 +18,9 @@ Version (>=)| Change
 
 \*1)  
 Generate a file "allfilesBetterExclude.txt" in the **parent-directory** of the directory to scan,  
-containig filenames to exclude (comma separated, no quotation-marks).  
-Each entry **must end with a comma**,  
-Example 1:  
-fileunwanted.txt,  
-or  
-Example 2:  
-fileunwanted.txt,filesecret.txt,  
+containig filenames to exclude (comma separated, no quotation-marks).   
+Example:  
+fileunwanted.txt,filesecret.txt   
   
 **Caution, the exclusion uses a simple text-compare of the path + filename, so an entry "lib," would exclude every file containing "lib" in it's path or "lib" in it's name!**  
   
@@ -73,6 +70,6 @@ The jar-file has no versioning, i.e. is fixeed to "allfilesBetter-assembly-1.00.
 Copyright (c) 2021 J. v.Roos.  
 
 ##### Viruscheck at Virustotal 
-[Check here](https://www.virustotal.com/gui/url/67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2/detection/u-67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2-1646004087
+[Check here](https://www.virustotal.com/gui/url/67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2/detection/u-67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2-1646485526
 )  
 Use [CTRL] + Click to open in a new window! 

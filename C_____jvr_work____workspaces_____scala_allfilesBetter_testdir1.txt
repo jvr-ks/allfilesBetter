@@ -1,0 +1,14 @@
+/**********************************************************************************************
+* C:\___jvr_work\___workspaces\____scala\allfilesBetter\testdir1\Lib\inLibTest1.txt
+* file:///C:\___jvr_work\___workspaces\____scala\allfilesBetter\testdir1\Lib\inLibTest1.txt
+**********************************************************************************************/
+inLibTest1.txt
+/************************************************************************************
+* C:\___jvr_work\___workspaces\____scala\allfilesBetter\testdir1\test.txt
+* file:///C:\___jvr_work\___workspaces\____scala\allfilesBetter\testdir1\test.txt
+************************************************************************************/
+hello world!
+
+
+
+
