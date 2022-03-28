@@ -70,7 +70,10 @@ The jar-file has no versioning, i.e. is fixeed to "allfilesBetter-assembly-1.00.
 ##### License: MIT, -> MIT_License.txt  
 Copyright (c) 2021 J. v.Roos.  
 
+<a name="virusscan">
+
+
 ##### Viruscheck at Virustotal 
-[Check here](https://www.virustotal.com/gui/url/67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2/detection/u-67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2-1646567845
+[Check here](https://www.virustotal.com/gui/url/67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2/detection/u-67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2-1648486822
 )  
 Use [CTRL] + Click to open in a new window! 
