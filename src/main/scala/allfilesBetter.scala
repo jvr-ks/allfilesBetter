@@ -25,7 +25,7 @@ object AllfilesBetter {
   
   def main(args: Array[String]): Unit = {
     
-    val version = "0.020"
+    val version = "0.021"
     val progname = "allfilesBetter"
     
     var inDirName = ""
@@ -65,7 +65,7 @@ object AllfilesBetter {
           fileExcludeContent = (c.trim().replace(JFile.separator,"").split(",")).toList
         }
       }
-      val d = inFile.glob("**/*.{txt,bat,ssc,sc,scala,java,php,css,js,ahk,md,conf,ini,sql}", includePath = false)
+      val d = inFile.glob("**/*.{txt,bat,ssc,sc,scala,java,php,css,js,ahk,md,conf,ini,sql,c,cpp,py}", includePath = false)
 
       val prepend = "* file:///"
       d.foreach (x => {

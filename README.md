@@ -10,6 +10,7 @@ Takes as input-directory: current directory or the first parameter.
 #### Latest changes:  
 Version (>=)| Change
 ------------ | -------------
+0.021 | globs "*.c", "*.cpp", "*.py"   too
 0.019 | ignore empty lines in "allfilesBetterExclude.txt" 
 0.018 | Exclude files \*1)
 0.017 | globs "*.sql" too
@@ -74,6 +75,6 @@ Copyright (c) 2021 J. v.Roos.
 
 
 ##### Viruscheck at Virustotal 
-[Check here](https://www.virustotal.com/gui/url/67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2/detection/u-67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2-1648486822
+[Check here](https://www.virustotal.com/gui/url/67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2/detection/u-67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2-1649958014
 )  
 Use [CTRL] + Click to open in a new window! 
