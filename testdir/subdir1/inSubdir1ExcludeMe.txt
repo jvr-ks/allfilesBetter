@@ -1,0 +1,2 @@
+inSubdir1ExcludeMe.txt the content
+

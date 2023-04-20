@@ -1,0 +1,1 @@
+inSubdir1.txt the content
