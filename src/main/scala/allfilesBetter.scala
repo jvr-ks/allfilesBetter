@@ -31,10 +31,11 @@ object AllfilesBetter {
     var inDirName = ""
     var outDirName = ""
     
-    if (args.length == 0){
-      inDirName = "." + JFile.separator
-      outDirName = inDirName
-    } else {
+    // no args
+    inDirName = "." + JFile.separator
+    outDirName = inDirName
+    
+    if (args.length == 1){
       inDirName = args(0)
       outDirName = inDirName
     }

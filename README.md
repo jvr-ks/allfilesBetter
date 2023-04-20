@@ -61,11 +61,12 @@ Use filemanager to doubleclick on "allfilesBetter.reg".
 
 #### Start  
 If you made a contextmenu entry just use the filemanager and right-click onto the directory of interest.  
+  
 Otherwise copy "allfilesBetter.exe" to a folder listed in the window path,  
 example: "c:\tools".  
 Allfilesbetter must be called with the parameter:  
-allfilesBetter.exe [directory to scan] [output-directory]  
-(absolut directories expected!).  
+allfilesBetter.exe [directory to scan] 
+(absolut directory expected!).  
 
 On the commandline use:  
 allfilesBetter.exe "%cd%\subdirectory of interest",  
@@ -74,7 +75,7 @@ allfilesBetter.exe "%~dp0\subdirectory of interest",
  
 If "allfilesBetter.exe" is not in the windows path,  
 call it with the complete pathname, example:
-"C:\allfilesBetter\allfilesBetter.exe" "%cd%\subdirectory of interest"
+"c:\xyz\allfilesBetter.exe" "%cd%\subdirectory of interest"
   
 [output-directory] is optional if omitted the current directory is used.   
   
@@ -101,6 +102,6 @@ Copyright (c) 2021 J. v.Roos.
 
 
 ##### Viruscheck at Virustotal 
-[Check here](https://www.virustotal.com/gui/url/67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2/detection/u-67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2-1681992332
+[Check here](https://www.virustotal.com/gui/url/67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2/detection/u-67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2-1681995367
 )  
 Use [CTRL] + Click to open in a new window! 
