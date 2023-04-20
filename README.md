@@ -53,27 +53,33 @@ All source-files are UTF-8 (no BOM.
 [Download allfilesBetter.exe from github](https://github.com/jvr-ks/allfilesbetter/raw/master/allfilesBetter.exe)   
 Viruscheck see below.  
 
-#### Start  
-allfilesBetter.exe [directory to scan] [output-directory]  
-[directory to scan] is optional,  
-but if omitted the directory containing of "allfilesBetter.exe" is scanned.  
-So copy "allfilesBetter.exe" to the directory of interest or use:  
-"allfilesBetter.exe" "%cd%"  
-  
-If "allfilesBetter.exe" is not in the windows path,  
-call it with the complete pathname, example:
-"C:\allfilesBetter\allfilesBetter.exe" "%cd%"
-  
-[output-directory] is optional.  
-  
-The generate output-filename is made of the directory-name with the extension ".txt".  
-The colon and all back-slashes are replace by an underscore-charater.  
-  
 #### Contextmenu integration:  
 Make a backup of the registry!  
 Take a look at "allfilesBetter.reg".   
 Edit it to reflect location of "allfilesBetter.exe ".  
 Use filemanager to doubleclick on "allfilesBetter.reg".  
+
+#### Start  
+If you made a contextmenu entry just use the filemanager and right-click onto the directory of interest.  
+Otherwise copy "allfilesBetter.exe" to a folder listed in the window path,  
+example: "c:\tools".  
+Allfilesbetter must be called with the parameter:  
+allfilesBetter.exe [directory to scan] [output-directory]  
+(absolut directories expected!).  
+
+On the commandline use:  
+allfilesBetter.exe "%cd%\subdirectory of interest",  
+inside a batchfile use:  
+allfilesBetter.exe "%~dp0\subdirectory of interest", 
+ 
+If "allfilesBetter.exe" is not in the windows path,  
+call it with the complete pathname, example:
+"C:\allfilesBetter\allfilesBetter.exe" "%cd%\subdirectory of interest"
+  
+[output-directory] is optional if omitted the current directory is used.   
+  
+The generate output-filename is made of the directory-name with the extension ".txt".  
+The colon and all back-slashes are replace by an underscore-charater. 
  
 #### File format:  
 All files are UTF-8 (no BOM).  
@@ -95,6 +101,6 @@ Copyright (c) 2021 J. v.Roos.
 
 
 ##### Viruscheck at Virustotal 
-[Check here](https://www.virustotal.com/gui/url/67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2/detection/u-67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2-1681990776
+[Check here](https://www.virustotal.com/gui/url/67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2/detection/u-67a597a303c2ee9987acc3cd009539e74442fc3eb44862465475f4bb4b4aabf2-1681992332
 )  
 Use [CTRL] + Click to open in a new window! 

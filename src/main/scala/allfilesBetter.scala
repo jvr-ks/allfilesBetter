@@ -25,7 +25,7 @@ object AllfilesBetter {
   
   def main(args: Array[String]): Unit = {
     
-    val version = "0.022"
+    val version = "0.023"
     val appname = "allfilesBetter"
     
     var inDirName = ""
