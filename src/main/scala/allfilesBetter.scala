@@ -14,8 +14,7 @@
 package de.jvr
 
 import better.files._
-import better.files.Dsl._ 
-//import better.files.File
+//import better.files.Dsl._ 
 import java.io.{File => JFile}
 import java.nio.charset.Charset
 
@@ -114,7 +113,7 @@ object AllfilesBetter {
       outFile.appendLine()
       outFile.appendLine()
     } else {
-      println("\n\nProblem reading the directory: " + inDirName)
+      println("\n\nERROR, reading the directory: " + inDirName + " failed!\n\n")
     }
     
     println("\n\n" + appname + " " + version + " finished!")
