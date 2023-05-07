@@ -14,6 +14,7 @@
 package de.jvr
 
 import better.files._
+import better.files.Dsl._ 
 //import better.files.File
 import java.io.{File => JFile}
 import java.nio.charset.Charset
@@ -37,7 +38,7 @@ object AllfilesBetter {
     
     if (args.length == 1){
       inDirName = args(0)
-      outDirName = inDirName
+      outDirName = inDirName 
     }
     
     val inFile = inDirName.toFile
@@ -68,7 +69,7 @@ object AllfilesBetter {
       }
       
       val sourceExtensions = (parentPath + JFile.separator + "allfilesBetterExtensions.txt").toFile
-      var fileExtensionsContent = "txt,bat,ssc,sc,scala,java,php,css,js,ahk,md,conf,ini,sql,c,cpp,py"
+      var fileExtensionsContent = "txt,bat,ssc,sc,scala,java,php,css,js,ahk,md,conf,ini,sql,c,cpp,py,vbs"
       if (!sourceExtensions.isEmpty) {
         println("Extensions-definition file found:\n" + sourceExtensions)
         val c = sourceExtensions.contentAsString
@@ -112,6 +113,8 @@ object AllfilesBetter {
       })
       outFile.appendLine()
       outFile.appendLine()
+    } else {
+      println("\n\nProblem reading the directory: " + inDirName)
     }
     
     println("\n\n" + appname + " " + version + " finished!")
