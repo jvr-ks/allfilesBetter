@@ -8,12 +8,6 @@ Windows 10 only.
 Version (>=)| Change
 ------------ | -------------
 0.022 | File-extensions definable  
-0.021 | globs "*.c", "*.cpp", "*.py"   too
-0.019 | ignore empty lines in "allfilesBetterExclude.txt" 
-0.018 | Exclude files \*1)
-0.017 | globs "*.sql" too
-0.016 | globs "*.txt" too
-0.015 | Outputfile is written to the parent directory
 
 #### Known issues / bugs 
 Issue / Bug | Type | fixed in version
